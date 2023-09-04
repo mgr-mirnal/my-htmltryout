@@ -1,0 +1,47 @@
+
+*{
+    background-color: rgb(53, 49, 49);
+    color: white;
+}
+.head-coloumn{
+    float: left;
+    width: 30%;
+    margin: 10px;
+    height: 200px;
+}
+.main-coloumn{
+    margin: 20px;
+    float: left;
+    width: 45%;
+    height: 500px;
+}
+.footer-coloumn{
+    float: left;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+}
+.footer-coloumn img{
+    margin: 5px;
+}
+footer{
+    float: bottom;
+}
+
+.flex-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flex-booking{
+    display: flex;
+    flex-direction: column;
+}
+.size #no.of.people{
+    width: 150px;
+}
+.booking-details{
+    margin-top: 10px;
+    display: inline;
+}
